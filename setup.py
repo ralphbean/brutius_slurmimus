@@ -10,7 +10,7 @@ setup(name='brutius_slurmimus',
 """,
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='',
-      author='Ralph Bean <ralph.bean@gmail.com',
+      author='Ralph Bean',
       author_email='ralph.bean@gmail.com',
       url='http://github.com/ralphbean/brutius_slurmimus',
       license='',
