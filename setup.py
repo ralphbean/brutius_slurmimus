@@ -4,7 +4,7 @@ import sys, os
 import brutius_slurmimus
 long_description = brutius_slurmimus.__doc__
 
-version = '0.1'
+version = '0.1.1'
 
 setup(name='brutius_slurmimus',
       version=version,

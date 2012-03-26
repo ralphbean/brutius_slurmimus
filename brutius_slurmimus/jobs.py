@@ -27,6 +27,7 @@ def slurm_load_job_details(jobid):
     output = ' '.join(os.popen(cmd).readlines())
     items = output.split()
     pairs = [tuple(item.split('=')) for item in items]
+    pairs = [pair for pair in pairs if len(pair) == 2]
     job = dict(pairs)
     return job
 
